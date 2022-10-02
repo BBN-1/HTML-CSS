@@ -1,0 +1,33 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+@import "https://fonts.googleapis.com/css?family=Geneva";
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.check i {
+    color: #2fcc71;
+    font-size: 25px;
+}
+
+.star i {
+    color: coral;
+    font-size: 25px;
+}
+
+.contact i {
+    color: #3498da;
+    font-size: 25px;
+}
+
+span {
+    padding-left: 3px;
+}
+
+ul {
+    list-style: none;
+}

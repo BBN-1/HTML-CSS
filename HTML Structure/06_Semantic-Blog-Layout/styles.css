@@ -1,0 +1,56 @@
+body {
+  background-color: #b7d7e8;
+}
+
+body header#main {
+  border-radius: 3px;
+  padding: 8px 10px;
+  background-color: #dceaf4;
+  border: 1px solid #bfcacb;
+ 
+}
+
+body header#main * {
+    vertical-align: middle;
+    display: inline;
+}
+
+
+
+body header#main nav ul {
+  margin: 0;
+  padding: 10px;
+}
+
+body header#main nav ul li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+body header#main nav ul li a {
+  text-decoration: none;
+}
+
+body section h2 {
+  margin: 15px 10px;
+}
+
+body section article {
+  display: table-cell;
+  width: 50%;
+  padding: 10px 15px;
+  background-color: #e5f0f7;
+  border: 10px solid #b7d7e8;
+}
+
+body footer {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #dceaf4;
+  border: 1px solid #bfcacb;
+}
+
+body footer p {
+  margin: 5px;
+}
