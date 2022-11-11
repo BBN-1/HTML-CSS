@@ -1,0 +1,103 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(welcome_section.css);
+@import url(coaches.css);
+@import "https://use.fontawesome.com/releases/v6.2.0/css/all.css";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+
+html {
+  font-family: "PT Serif", "PT Sans", serif;
+}
+
+body {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url(./image/fitness-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+  width: 100%;
+}
+
+.hero__nav {
+  padding-top: 25px;
+  padding-right: 50px;
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero_ul {
+  display: flex;
+  gap: 90px;
+}
+
+.hero_ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero__content {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.hero__title {
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  font-family: "PT Sans";
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero__text {
+  width: 55%;
+  align-self: center;
+  margin-bottom: 30px;
+
+  font-family: "PT Sans";
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero__btn {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  background-color: #d01919;
+  font-family: "PT Sans";
+
+  align-self: center;
+}
+
+footer {
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  font-weight: 500;
+  background-color: #d01919;
+  text-align: center;
+  font-size: 20px;
+  font-family: "PT Sans";
+}

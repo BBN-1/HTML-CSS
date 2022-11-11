@@ -1,0 +1,36 @@
+.header {
+    padding: 20px 60px;
+    color: white;
+    background-color: #d01919;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__midlle {
+    cursor: pointer;
+    font-size: 22px;
+    justify-content: center;
+    gap: 10px;
+    width: 400px;
+    display: flex;
+}
+
+.header__midlle i {
+    align-self: center;
+}
+
+.icons {
+    justify-content: center;
+    font-size: 22px;
+    display: flex;
+    gap: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+    align-self: center;
+}
+
+.header__number {
+    font-size: 22px;
+}
